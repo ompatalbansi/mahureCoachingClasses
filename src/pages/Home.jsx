@@ -14,7 +14,7 @@ const Home = () => {
     { value: '5,000+', label: 'Students Taught', suffix: '' },
     { value: '150+', label: '95+/100 Scores', suffix: '' },
     { value: '15+', label: 'Years Experience', suffix: '' },
-    { value: '99%', label: 'Success Rate', suffix: '' }
+    { value: '98%', label: 'Success Rate', suffix: '' }
   ];
 
   // Features list
