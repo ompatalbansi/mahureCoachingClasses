@@ -50,7 +50,7 @@ const Contact = () => {
                 <li className="flex items-start space-x-3.5">
                   <MapPin className="w-5 h-5 text-secondary shrink-0 mt-0.5" />
                   <span className="text-dark-light dark:text-slate-100 leading-relaxed">
-                   , Yavatmal, MH - 445001
+                   Rani Zhasi Chowk, Yavatmal, MH - 445001
                   </span>
                 </li>
                 <li className="flex items-center space-x-3.5">
@@ -86,7 +86,7 @@ const Contact = () => {
           <div className="bg-slate-100 dark:bg-slate-300 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-100 min-h-[350px] relative shadow-sm">
             <iframe
               title="Mahure Coaching Classes Location Map"
-              src="https://www.google.com/maps/embed?pb=!4v1780475835018!6m8!1m7!1shA1v5ExVcwtWZ-UAPm7L6Q!2m2!1d20.38510199764121!2d78.13575247948513!3f99.81026515232256!4f-2.933667244739695!5f0.4000000000000002"
+              src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1781346967241!5m2!1sen!2sin!6m8!1m7!1s79zKNYEuJ4cv4o03nfqCug!2m2!1d20.38693926489307!2d78.135845920083!3f143.2796717572308!4f-13.527888004900305!5f0.7820865974627469"
               className="absolute inset-0 w-full h-full border-0 grayscale opacity-80 dark:hue-rotate-180 dark:opacity-100 transition-all duration-300"
               allowFullScreen="true"
               allowTransparency="true"

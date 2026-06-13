@@ -60,8 +60,7 @@ mahureclasses/
 │   ├── App.css             # Main styling extensions
 │   ├── index.css           # Tailwind configurations and global resets
 │   └── main.jsx            # Application entry point
-├── package.json            # NPM scripts and dependencies
-├── requirement.file        # Checklists and client requirements for deployment
+├── package.json            # NPM scripts and dependencies       
 └── vite.config.js          # Vite configurations
 ```
 
@@ -108,4 +107,3 @@ npm run preview
 ## 📋 Data Integration Status
 
 The project currently runs on a mock data layer found in [mathData.js](file:///d:/example_projects/edtech/mahureclasses/src/data/mathData.js). To customize the site for production:
-- Consult the [requirement.file](file:///d:/example_projects/edtech/mahureclasses/requirement.file) for a checklist of information required from the teacher (Mr. Nitin Mahure), including profile photos, maps embeds, PDFs for study materials, and actual topper directories.

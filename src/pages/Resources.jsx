@@ -33,7 +33,7 @@ const Resources = () => {
   });
 
   // Mock download progress triggers
-  const handleDownload = (id) => {
+  const handleDownload = (id, filepath) => {
     if (downloadProgress[id]) return; // already downloading or downloaded
     
     // Set downloading state
@@ -47,6 +47,17 @@ const Resources = () => {
         ...prev,
         [id]: { status: 'loading', percent }
       }));
+
+      const fileDownload = async (filepath) => {
+        const response = await fetch(filepath);
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filepath.split('/').pop();
+        link.click();
+        URL.revokeObjectURL(url);
+      };
       
       if (percent >= 100) {
         clearInterval(interval);
@@ -54,6 +65,7 @@ const Resources = () => {
           ...prev,
           [id]: { status: 'completed' }
         }));
+        fileDownload(filepath);
       }
     }, 150);
   };
@@ -86,7 +98,7 @@ const Resources = () => {
             transition={{ delay: 0.2 }}
             className="text-sm md:text-base lg:text-lg text-dark-light dark:text-slate-300 max-w-2xl mt-4 leading-relaxed"
           >
-            Free downloadable formula booklets, chapter assignments, and last 10 years board question papers created by Mr. Mahure.
+            Free downloadable formula booklets, chapter assignments, and Previous Years Board Question Papers, Notes created by Mr. Mahure Sir.
           </motion.p>
         </div>
       </section>
@@ -197,7 +209,7 @@ const Resources = () => {
                       <div className="border-t border-slate-100 dark:border-slate-800 pt-4 flex items-center justify-between">
  
                         <button
-                          onClick={() => handleDownload(res.id)}
+                          onClick={() => handleDownload(res.id, res.fileName)}
                           disabled={state.status !== 'idle'}
                           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all flex items-center space-x-1.5 cursor-pointer select-none ${
                             state.status === 'idle'

@@ -14,7 +14,6 @@ const VideoLectures = () => {
     'Algebra',
     'Geometry',
     'Trigonometry',
-    'Calculus',
     'Coordinate Geometry',
     'Statistics',
     'Board Exam Preparation'
@@ -225,7 +224,7 @@ const VideoLectures = () => {
             >
               <Video className="w-12 h-12 text-slate-350 dark:text-slate-650 mx-auto" />
               <h4 className="text-lg font-bold text-dark dark:text-slate-200 mt-4">No lectures found.</h4>
-              <p className="text-sm text-dark-light dark:text-slate-450 mt-1">Try adapting your search parameter or category filters.</p>
+              <p className="text-sm text-dark-light dark:text-slate-450 mt-1">will be upload soon!!</p>
             </motion.div>
           )}
 

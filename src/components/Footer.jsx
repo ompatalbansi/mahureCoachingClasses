@@ -129,7 +129,7 @@ const Footer = () => {
               <li className="flex items-start space-x-2.5">
                 <MapPin className="w-5 h-5 text-secondary shrink-0 mt-0.5" />
                 <span className="text-slate-400 leading-normal">
-                , Yavatmal, MH - 445001
+                Rani Zhasi Chowk, Yavatmal, MH - 445001
                 </span>
               </li>
               <li className="flex items-center space-x-2.5">
@@ -155,7 +155,7 @@ const Footer = () => {
             <span>•</span>
             <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
             <span>•</span>
-            <a href="#" className="hover:text-primary transition-colors">Sitemap</a>
+            <a href="https://linkedin.com/in/om-patalbansi" target='_blank' rel='noopener noreferrer' className="hover:text-primary transition-colors">Devloper</a>
           </div>
         </div>
       </div>

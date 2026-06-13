@@ -128,7 +128,7 @@ const About = () => {
             <div className="lg:col-span-5 relative">
               <div className="bg-white dark:bg-slate-900 p-4 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-800 max-w-md mx-auto">
                 <img
-                  src=""
+                  src="../m.png"
                   alt="Director Mr. Mahure"
                   className="rounded-xl w-full h-80 object-cover"
                   onError={(e) => {

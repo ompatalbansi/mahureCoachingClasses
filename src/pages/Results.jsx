@@ -227,7 +227,7 @@ const Results = () => {
                           {topper.score}
                         </div>
                         <div className="text-[11px] font-bold text-slate-500 dark:text-slate-400 leading-relaxed max-w-[90%] mx-auto">
-                          {topper.achievement} ({topper.percentage})
+                          {topper.achievement}
                         </div>
                       </div>
 

@@ -127,9 +127,8 @@ const Home = () => {
                 
                 {/* Visual mathematical curve sketch with indicators */}
                 
-                <div id="" className="bg-slate-700 dark:bg-dark text-slate-350 p-6 rounded-xl font-mono lg:text-xs lg:h-[500px] lg:w-[410px] md:h-[400px] md:w-[350px] h-[300px] w-[330px] sm:text-sm space-y-4 shadow-inner border border-slate-800">
-                  
-                  
+                <div id="" className="bg-slate-700 dark:bg-dark text-slate-350 rounded-xl font-mono lg:text-xs lg:h-[500px] lg:w-[410px] md:h-[400px] md:w-[350px] h-[300px] w-[330px] sm:text-sm space-y-4 shadow-inner border border-slate-800">
+                  <img src="../../public/m.png" alt="math" className="w-full h-full object-cover" />
                 </div>
 
                 {/* Floating geometry badges */}
@@ -236,7 +235,7 @@ const Home = () => {
                 Meet Our Board Toppers
               </p>
               <p className="text-sm sm:text-base text-dark-light dark:text-slate-350">
-                Year after year, our students break records and score 90+/100 marks.
+                Year after year, our students break records and score 80+/100 marks.
               </p>
             </div>
             <Link
@@ -298,7 +297,7 @@ const Home = () => {
                         {topper.score}
                       </div>
                       <div className="text-[11px] font-bold text-slate-500 dark:text-slate-400 leading-relaxed max-w-[90%] mx-auto">
-                        {topper.achievement} ({topper.percentage})
+                        {topper.achievement} 
                       </div>
                     </div>
 

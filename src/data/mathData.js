@@ -81,130 +81,204 @@ export const COURSES = [
 export const TOPPERS = [
   {
     id: 1,
-    name: 'Aryan Sharma',
-    score: '100/100 Math',
-    percentage: '98.6% Overall',
+    name: 'Sarthak Wagare',
+    score: '95/100 Math',
+    percentage: '97.2% Overall',
     class: 'Class 10',
     year: 2025,
-    achievement: 'CBSE Class 10 Board Topper',
-    image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&h=375&q=80'
+    achievement: 'CBSE Class 10 Board',
+    image: '../sarthak.jpeg'
   },
   {
     id: 2,
-    name: 'Riya Gupta',
-    score: '100/100 Math',
-    percentage: '99.2% Overall',
+    name: 'Atharva Hedau',
+    score: '95/100 Math',
+    percentage: '97.2% Overall',
     class: 'Class 10',
     year: 2025,
-    achievement: 'State Rank 4 in Boards',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&h=375&q=80'
+    achievement: 'CBSE Class 10 Board',
+    image: '../atharvah.jpeg'
   },
   {
     id: 3,
-    name: 'Kabir Verma',
-    score: '99/100 Math',
-    percentage: '97.8% Overall',
+    name: 'Gauri Khedkar',
+    score: '95/100 Math',
+    percentage: '97.2% Overall',
     class: 'Class 10',
-    year: 2024,
-    achievement: 'School Topper (100% in Math)',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=375&q=80'
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../gauri.jpeg'
   },
   {
     id: 4,
-    name: 'Sneha Patel',
-    score: '100/100 Math',
-    percentage: '98.5% Overall',
+    name: 'Faraz Khan',
+    score: '90/100 Math',
+    percentage: '97.2% Overall',
     class: 'Class 10',
-    year: 2024,
-    achievement: 'School Topper (100% in Math)',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&h=375&q=80'
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../faraz.jpeg'
   },
   {
     id: 5,
-    name: 'Rohan Das',
-    score: '99/100 Math',
-    percentage: '96.5% Overall',
+    name: 'Atharva Lunge',
+    score: '90/100 Math',
+    percentage: '97.2% Overall',
     class: 'Class 10',
-    year: 2023,
-    achievement: 'School Topper (100% in Math)',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=375&q=80'
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../atharval.jpeg'
+  },
+  {
+    id: 5,
+    name: 'Naveen Jajodia',
+    score: '90/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../navin.jpeg'
   },
   {
     id: 6,
-    name: 'Ananya Sen',
-    score: '98/100 Math',
+    name: 'Neal Chandane',
+    score: '90/100 Math',
     percentage: '97.2% Overall',
     class: 'Class 10',
-    year: 2023,
-    achievement: 'School Topper (100% in Math)',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&h=375&q=80'
-  }
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../neal.jpeg'
+  },
+  {
+    id: 7,
+    name: 'Lawanya Bhoyar',
+    score: '88/100 Math',
+    percentage: '97.8% Overall',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../lawanya.jpeg'
+  },
+  {
+    id: 8,
+    name: 'Amruta Raut',
+    score: '87/100 Math',
+    percentage: '',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../amruta.jpeg'
+  },
+  {
+    id: 9,
+    name: 'Avdhut Padalkar',
+    score: '87/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../avdhut.jpeg'
+  },
+  {
+    id: 10,
+    name: 'Rishi Lingawar',
+    score: '86/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../rishi.jpeg'
+  },
+   {
+    id: 11,
+    name: 'Tanishka Ingole',
+    score: '85/100 Math',
+    percentage: '98.5% Overall',
+    class: 'Class 10',
+    year: 2024,
+    achievement: 'CBSE Class 10 Board',
+    image: '../Tanishka.jpeg'
+  },
+  {
+    id: 12,
+    name: 'Naitik Majethiya',
+    score: '83/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../naitik.jpeg'
+  },
+  {
+    id: 13,
+    name: 'Rudra Chaudhari',
+    score: '82/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../rudrac.jpeg'
+  },
+  {
+    id: 14,
+    name: 'Shruti Jaiswal',
+    score: '81/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../shruti.jpeg'
+  },
+  {
+    id: 15,
+    name: 'Swarit Turare',
+    score: '80/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2025,
+    achievement: 'CBSE Class 10 Board',
+    image: '../swarit.jpeg'
+  },
+  
 ];
 
 export const RESOURCES = [
   {
-    id: 'alg-f1',
-    title: 'Algebra Formula Sheet (Class 8th - 10th)',
+    id: 'mens-f1',
+    title: 'Mensuration Formula Sheet (Class 8th - 10th)',
     category: 'Formula Sheets',
-    subcat: 'Algebra',
-    size: '1.4 MB',
+    subcat: 'Mensuration',
+    size: '800 kB',
     fileType: 'PDF',
+    fileName:'../notes/mensuration.pdf',
     downloads: 1240,
     classes: ['Class 8', 'Class 9', 'Class 10']
   },
   {
-    id: 'trig-f1',
-    title: 'Trigonometry Ultimate Formula Guide',
+    id: 'alge-f2',
+    title: 'Identities Formula Sheet (Class 8th - 10th)',
     category: 'Formula Sheets',
-    subcat: 'Trigonometry',
-    size: '2.1 MB',
+    subcat: 'Identities',
+    size: '600 kB',
     fileType: 'PDF',
-    downloads: 3450,
-    classes: ['Class 10', 'Class 11', 'Class 12']
-  },
-  {
-    id: 'calc-f1',
-    title: 'Limits & Derivatives Reference Sheet',
-    category: 'Formula Sheets',
-    subcat: 'Calculus',
-    size: '1.8 MB',
-    fileType: 'PDF',
-    downloads: 980,
-    classes: ['Class 11', 'Class 12']
-  },
-  {
-    id: 'int-f1',
-    title: 'Integral Calculus Cheat Sheet',
-    category: 'Formula Sheets',
-    subcat: 'Calculus',
-    size: '2.5 MB',
-    fileType: 'PDF',
-    downloads: 4120,
-    classes: ['Class 12']
-  },
-  {
-    id: 'geom-f1',
-    title: 'Geometry Theorems & Mensuration Formulas',
-    category: 'Formula Sheets',
-    subcat: 'Geometry',
-    size: '1.9 MB',
-    fileType: 'PDF',
-    downloads: 1850,
+    fileName:'../notes/IDENTITIES.pdf',
+    downloads: 1240,
     classes: ['Class 8', 'Class 9', 'Class 10']
   },
+
   
 ];
 
 export const VIDEOS = [
   {
     id: 'vid-1',
-    title: 'TRIGONOMETRY, CLASS 10 | EX: 8.3 | QUE. 4(iii) |',
-    duration: '16:04',
+    title: 'CLASS 10 | CBSE | TRIGONOMETRY | VARIABLE BASED PROBLEMS | VIDEO 01',
+    duration: '21:35',
     category: 'Trigonometry',
-    youtubeId: 'VTXkHg8eHx8', // Placeholder clean YouTube IDs or educational content
+    youtubeId: 'p-kcps79wrg', // Placeholder clean YouTube IDs or educational content
     tutor: 'Mr.Nitin Mahure Sir',
     featured: true,
-    description: 'TRIGONOMETRY, CLASS 10 | EX: 8.3 | QUE. 4(iii) |.'
+    description: 'CLASS 10 | CBSE | TRIGONOMETRY | VARIABLE BASED PROBLEMS | VIDEO 01.'
   },
   {
     id: 'vid-2',
@@ -218,24 +292,35 @@ export const VIDEOS = [
   },
   {
     id: 'vid-3',
-    title: 'QUADRILATERAL | Formed by Joining Mid-Points | Class 9 Maths | Prove It’s a Parallelogram |',
-    duration: '8:01',
-    category: 'Algebra',
-    youtubeId: 'C95B2loIlag',
+    title: 'TRIGONOMETRY, CLASS 10| TRIGONOMETRIC RATIOS 01 | 30°, 45° & 60°|',
+    duration: '3:01',
+    category: 'Trigonometry',
+    youtubeId: 'mVo0KENZcFA',
     tutor: 'Mr. Mahure Sir',
     featured: false,
-    description: 'QUADRILATERAL | Formed by Joining Mid-Points | Class 9 Maths | Prove It’s a Parallelogram |'
+    description: 'TRIGONOMETRY, CLASS 10| TRIGONOMETRIC RATIOS 01 | 30°, 45° & 60°|'
   },
   {
     id: 'vid-4',
-    title: 'Class 10 Boards - Section Formula & Coordinate Geometry Proofs',
+    title: '| CLASS 9 | ROOT OF AN IRRATIONAL NUMBER |',
     duration: '28:10',
-    category: 'Coordinate Geometry',
-    youtubeId: '8p2XWw3tGk8',
+    category: 'Algebra',
+    youtubeId: 'PggfGlNR-no',
     tutor: 'Mr. Mahure Sir',
     featured: true,
     views: '18,540',
-    description: 'Full analysis of coordinates, section formula, distance formula, and previous board exam problems.'
+    description: '| CLASS 9 | ROOT OF AN IRRATIONAL NUMBER |'
+  },
+  {
+    id: 'vid-5',
+    title: 'CLASS 9 | CBSE & STATE | CH. QUADRILATERALS | MID - POINT THEOREM.',
+    duration: '28:10',
+    category: 'Algebra',
+    youtubeId: '0qTE0ZH9auE',
+    tutor: 'Mr. Mahure Sir',
+    featured: true,
+    views: '18,540',
+    description: 'CLASS 9 | CBSE & STATE | CH. QUADRILATERALS | MID - POINT THEOREM.'
   },
   
 ];
