@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #FACC15;
+  --color-primary-hover: #EAB308;
+  --color-secondary: #0066FF;
+  --color-secondary-hover: #0052CC;
+  --color-dark: #1E293B;
+  --color-dark-light: #475569;
+  
+  --font-sans: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-dark dark:bg-slate-950 dark:text-slate-100 font-sans antialiased selection:bg-primary/30 transition-colors duration-300;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
+}
+
+/* Math background grid animation */
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+.math-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.math-float-reverse {
+  animation: float 8s ease-in-out infinite reverse;
+}
