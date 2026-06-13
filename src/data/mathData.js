@@ -1,30 +1,7 @@
 // Mock Data Layer for Mahure Mathematics Academy
 
 export const COURSES = [
-  {
-    id: 'class-9',
-    title: 'Class 9th Mathematics',
-    subtitle: 'High School Foundation',
-    level: 'CBSE School',
-    duration: '1 Year (Academic Session)',
-    exams: 'CBSE Board Exams',
-    topics: [
-      'Number Systems (Irrational & Real Numbers)',
-      'Polynomials & Remainder Theorem',
-      'Coordinate Geometry (Cartesian Plane)',
-      'Linear Equations in Two Variables',
-      'Introduction to Euclid\'s Geometry, Lines & Angles',
-      'Triangles, Quadrilaterals & Circles theorems',
-      'Heron\'s Formula & Surface Areas/Volumes',
-      'Statistics & Probability basics'
-    ],
-    learningOutcomes: [
-      'Differentiate and factorize complex polynomial equations',
-      'Apply theorems of lines, triangles, and circles to geometric problems',
-      'Plot linear equations and coordinates accurately'
-    ],
-    description: 'CRITICAL year for setting up core analytical skills. Highly focused on deductive proofs and Euclidean geometry.'
-  },
+  
   {
     id: 'class-10',
     title: 'Class 10th Mathematics',
@@ -51,6 +28,32 @@ export const COURSES = [
     ],
     description: 'Intense concept building and mock exam series designed to score 100/100 in Board Exams.'
   },
+  
+  {
+    id: 'class-9',
+    title: 'Class 9th Mathematics',
+    subtitle: 'High School Foundation',
+    level: 'CBSE School',
+    duration: '1 Year (Academic Session)',
+    exams: 'CBSE Board Exams',
+    topics: [
+      'Number Systems (Irrational & Real Numbers)',
+      'Polynomials & Remainder Theorem',
+      'Coordinate Geometry (Cartesian Plane)',
+      'Linear Equations in Two Variables',
+      'Introduction to Euclid\'s Geometry, Lines & Angles',
+      'Triangles, Quadrilaterals & Circles theorems',
+      'Heron\'s Formula & Surface Areas/Volumes',
+      'Statistics & Probability basics'
+    ],
+    learningOutcomes: [
+      'Differentiate and factorize complex polynomial equations',
+      'Apply theorems of lines, triangles, and circles to geometric problems',
+      'Plot linear equations and coordinates accurately'
+    ],
+    description: 'CRITICAL year for setting up core analytical skills. Highly focused on deductive proofs and Euclidean geometry.'
+  },
+
   {
     id: 'class-8',
     title: 'Class 8th Mathematics',
@@ -81,6 +84,26 @@ export const COURSES = [
 export const TOPPERS = [
   {
     id: 1,
+    name: 'Dhruv Pande',
+    score: '100/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2023,
+    achievement: 'CBSE Class 10 Board',
+    image: '../dhruv-23.jpeg'
+  },
+  {
+    id: 2,
+    name: 'Aastha Toliwal',
+    score: '98/100 Math',
+    percentage: '97.2% Overall',
+    class: 'Class 10',
+    year: 2024,
+    achievement: 'CBSE Class 10 Board',
+    image: '../aasth-24.jpeg'
+  },
+  {
+    id: 3,
     name: 'Sarthak Wagare',
     score: '95/100 Math',
     percentage: '97.2% Overall',
@@ -90,7 +113,7 @@ export const TOPPERS = [
     image: '../sarthak.jpeg'
   },
   {
-    id: 2,
+    id: 4,
     name: 'Atharva Hedau',
     score: '95/100 Math',
     percentage: '97.2% Overall',
@@ -100,7 +123,7 @@ export const TOPPERS = [
     image: '../atharvah.jpeg'
   },
   {
-    id: 3,
+    id: 5,
     name: 'Gauri Khedkar',
     score: '95/100 Math',
     percentage: '97.2% Overall',
@@ -110,7 +133,7 @@ export const TOPPERS = [
     image: '../gauri.jpeg'
   },
   {
-    id: 4,
+    id: 6,
     name: 'Faraz Khan',
     score: '90/100 Math',
     percentage: '97.2% Overall',
@@ -120,7 +143,7 @@ export const TOPPERS = [
     image: '../faraz.jpeg'
   },
   {
-    id: 5,
+    id: 7,
     name: 'Atharva Lunge',
     score: '90/100 Math',
     percentage: '97.2% Overall',
@@ -130,7 +153,7 @@ export const TOPPERS = [
     image: '../atharval.jpeg'
   },
   {
-    id: 5,
+    id: 8,
     name: 'Naveen Jajodia',
     score: '90/100 Math',
     percentage: '97.2% Overall',
@@ -140,7 +163,7 @@ export const TOPPERS = [
     image: '../navin.jpeg'
   },
   {
-    id: 6,
+    id: 9,
     name: 'Neal Chandane',
     score: '90/100 Math',
     percentage: '97.2% Overall',
@@ -150,7 +173,7 @@ export const TOPPERS = [
     image: '../neal.jpeg'
   },
   {
-    id: 7,
+    id: 10,
     name: 'Lawanya Bhoyar',
     score: '88/100 Math',
     percentage: '97.8% Overall',
@@ -160,7 +183,7 @@ export const TOPPERS = [
     image: '../lawanya.jpeg'
   },
   {
-    id: 8,
+    id: 11,
     name: 'Amruta Raut',
     score: '87/100 Math',
     percentage: '',
@@ -170,7 +193,7 @@ export const TOPPERS = [
     image: '../amruta.jpeg'
   },
   {
-    id: 9,
+    id: 12,
     name: 'Avdhut Padalkar',
     score: '87/100 Math',
     percentage: '97.2% Overall',
@@ -180,7 +203,7 @@ export const TOPPERS = [
     image: '../avdhut.jpeg'
   },
   {
-    id: 10,
+    id: 13,
     name: 'Rishi Lingawar',
     score: '86/100 Math',
     percentage: '97.2% Overall',
@@ -190,17 +213,17 @@ export const TOPPERS = [
     image: '../rishi.jpeg'
   },
    {
-    id: 11,
+    id: 14,
     name: 'Tanishka Ingole',
     score: '85/100 Math',
     percentage: '98.5% Overall',
     class: 'Class 10',
-    year: 2024,
+    year: 2025,
     achievement: 'CBSE Class 10 Board',
     image: '../Tanishka.jpeg'
   },
   {
-    id: 12,
+    id: 15,
     name: 'Naitik Majethiya',
     score: '83/100 Math',
     percentage: '97.2% Overall',
@@ -210,7 +233,7 @@ export const TOPPERS = [
     image: '../naitik.jpeg'
   },
   {
-    id: 13,
+    id: 16,
     name: 'Rudra Chaudhari',
     score: '82/100 Math',
     percentage: '97.2% Overall',
@@ -220,7 +243,7 @@ export const TOPPERS = [
     image: '../rudrac.jpeg'
   },
   {
-    id: 14,
+    id: 17,
     name: 'Shruti Jaiswal',
     score: '81/100 Math',
     percentage: '97.2% Overall',
@@ -230,7 +253,7 @@ export const TOPPERS = [
     image: '../shruti.jpeg'
   },
   {
-    id: 15,
+    id: 18,
     name: 'Swarit Turare',
     score: '80/100 Math',
     percentage: '97.2% Overall',
@@ -243,6 +266,7 @@ export const TOPPERS = [
 ];
 
 export const RESOURCES = [
+  
   {
     id: 'mens-f1',
     title: 'Mensuration Formula Sheet (Class 8th - 10th)',

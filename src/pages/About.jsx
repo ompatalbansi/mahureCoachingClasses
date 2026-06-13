@@ -26,7 +26,7 @@ const About = () => {
     { label: 'Founded in', value: '2011' },
     { label: 'Board Toppers Created', value: '150+' },
     {label: 'Teaching Experience', value: '15+Y'},
-    { label: 'Average Marks in Boards', value: '88%' }
+    { label: 'Average Marks in Boards', value: '90%' }
   ];
 
   return (

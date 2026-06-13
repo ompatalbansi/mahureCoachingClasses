@@ -14,7 +14,7 @@ const Home = () => {
     { value: '5,000+', label: 'Students Taught', suffix: '' },
     { value: '150+', label: '95+/100 Scores', suffix: '' },
     { value: '15+', label: 'Years Experience', suffix: '' },
-    { value: '99%', label: 'Success Rate', suffix: '' }
+    { value: '100%', label: 'Success Rate', suffix: '' }
   ];
 
   // Features list
@@ -127,8 +127,8 @@ const Home = () => {
                 
                 {/* Visual mathematical curve sketch with indicators */}
                 
-                <div id="" className="bg-slate-700 dark:bg-dark text-slate-350 rounded-xl font-mono lg:text-xs lg:h-[500px] lg:w-[410px] md:h-[400px] md:w-[350px] h-[300px] w-[330px] sm:text-sm space-y-4 shadow-inner border border-slate-800">
-                  <img src="../../public/m.png" alt="math" className="w-full h-full object-cover" />
+                <div id="" className="bg-secondary/20 dark:bg-dark text-slate-350 rounded-xl font-mono lg:text-xs lg:h-[500px] lg:w-[410px] md:h-[400px] md:w-[350px] h-[300px] w-[330px] sm:text-sm space-y-4 shadow-inner border border-slate-500">
+                  <img src="../../msir.png" alt="math" className="w-full h-full object-cover" />
                 </div>
 
                 {/* Floating geometry badges */}
@@ -235,7 +235,7 @@ const Home = () => {
                 Meet Our Board Toppers
               </p>
               <p className="text-sm sm:text-base text-dark-light dark:text-slate-350">
-                Year after year, our students break records and score 80+/100 marks.
+                Year after year, our students break records and score 95+/100 marks.
               </p>
             </div>
             <Link

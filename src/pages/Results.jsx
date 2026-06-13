@@ -21,14 +21,14 @@ const Results = () => {
   // Success statistics data
   const stats = [
     {
-      title: 'Centum Scores (100/100 Math)',
+      title: 'OutOFF Scores (100/100 Math)',
       value: '150+',
       desc: 'Students who scored a perfect 100 in Board examinations since 2011.',
       percentage: 100
     },
     {
       title: 'Board Exam Average',
-      value: '88.4%',
+      value: '90.4%',
       desc: 'Average score of our academy students in board math exams.',
       percentage: 88.4
     },
